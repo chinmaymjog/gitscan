@@ -1,0 +1,5 @@
+repos:
+  - repo: git@github.com:chinmaymjog/gitscan.git
+    rev: v1.0.0
+    hooks:
+      - id: gitscan

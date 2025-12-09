@@ -1,0 +1,5 @@
+- id: gitscan
+  name: Gitleaks Scanner
+  entry: gitleaks detect --config gitleaks.toml --redact
+  language: system
+  pass_filenames: false
